@@ -23,19 +23,19 @@ export function SignIn(){
             />    
 
             <View style={styles.content}>
-                <Text style={styles.title}>
-                    Conecte-se {`\n`} e organize suas {`\n`}jogatinas
-                </Text>
+                    <Text style={styles.title}>
+                        Conecte-se {`\n`} e organize suas {`\n`}jogatinas
+                    </Text>
 
-                <Text style={styles.subtitle}>
-                    Crie grupos para jogar seus games {`\n`}
-                    favoritos com seus amigos
-                </Text>
+                    <Text style={styles.subtitle}>
+                        Crie grupos para jogar seus games {`\n`}
+                        favoritos com seus amigos
+                    </Text>
 
-                <ButtonIcon 
-                    tittle="Entrar com Discord"
-                    activeOpacity={0.1}
-                />
+                    <ButtonIcon 
+                        tittle="Entrar com Discord"
+                        activeOpacity={0.7}
+                    />
             </View>
 
             

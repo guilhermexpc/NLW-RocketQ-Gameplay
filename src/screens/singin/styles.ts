@@ -1,6 +1,9 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, PixelRatio } from 'react-native'
 
 import { theme } from '../../global/styles/theme';
+
+
+
 
 export const styles = StyleSheet.create({
     container:{
@@ -13,21 +16,23 @@ export const styles = StyleSheet.create({
         width: '100%',
         height: 360,
     },
-    content:{
+    content:{        
         marginTop: -40,
-        padding: 50,
-    },
+        paddingHorizontal: 50,
+        justifyContent: 'center'
+    }, 
     title:{
         color: theme.colors.heading,
         textAlign: 'center',
         fontSize: 32,        
         marginBottom: 16,
+        
     },
     subtitle:{
         color: theme.colors.heading,
         fontSize: 15,
         textAlign: 'center',
-        marginBottom: 48
-    },
+        marginBottom: 36
+    },    
     
 });
